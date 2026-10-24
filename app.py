@@ -21,7 +21,7 @@ device = torch.device(
     "cuda" if torch.cuda.is_available() else "cpu"
 )
 
-MODEL_PATH = "models/alphabet_cnn_best.pth"
+MODEL_PATH = "alphabet_cnn_best.pth"
 LETTERS = string.ascii_uppercase
 
 
